@@ -10,10 +10,11 @@
  *	to the PC.
  */
 
+#include <stdio.h>
 #include <avr/io.h>
-//#include "libser.h"
 #include <util/delay.h>
 #include "my_lcd.h"
+#include <string.h>
 
 /* Initalise the serial port for the given board rate/100 and MC clock speed in MHz*/
 void my_uart0_init(unsigned int BaudRate, unsigned int ClockSpeed)
@@ -67,12 +68,13 @@ void my_uart0_tx_byte(unsigned char byte)
 int main()
 {
 	char RxByte;
-	char con[32];
+	char str_display[32];
+	char con[33];
+	unsigned int position_lcd = 0;			// Stores the LCD cursor position from 0 to 31
 
 	my_lcd_init(4);						// Initalise LCD in 4 bit mode.
 	my_uart0_init(96, 16);				// Initalise the serial communication at a board rate of 9600 Hz
 
-	ctrl_port_b = 1;					// Set LCD control lines to port B.
 
 	while(1)
 	{
@@ -80,10 +82,22 @@ int main()
 
 		my_uart0_tx_byte(RxByte);		// Transmit the received message back to the PC.
 
+		if(position_lcd < 32)
+		{
+			str_display[position_lcd] = RxByte;
+		}
+		/* Clear the position_lcd array because end of display. */
+		else
+		{
+			memset( str_display, 0, sizeof(str_display) );	// Clear the position_lcd array.
+			position_lcd = 0;
+			str_display[position_lcd] = RxByte;
+		}
 		/* Display received message on LCD */
-		snprintf(con, 32, "%s%c", "Received: ", RxByte);
+		snprintf(con, 33, "%s", str_display);
 		my_lcd_display(con);
 
+		position_lcd++;
 	}
 	return 0;
 }
