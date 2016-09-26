@@ -1,0 +1,763 @@
+Archive member included because of file (symbol)
+
+../libmy_lcd.a(LCD3_3-InitProc.o)
+                              ./adc.o (my_lcd_init)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              ./adc.o (__subsf3)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              ./adc.o (__divsf3)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                              ./adc.o (__fixsfsi)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o) (__fixunssfsi)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              ./adc.o (__floatsisf)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_inf)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_nan)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscA)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_pscB)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3.o) (__fp_round)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_split3)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o) (__fp_zero)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(log.o)
+                              ./adc.o (log)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              ./adc.o (__mulsf3)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(log.o) (__mulsf3x)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(pow.o)
+                              ./adc.o (pow)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(exp.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(pow.o) (exp)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(log.o) (__fp_mpack)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(log.o) (__fp_powser)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(inverse.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(exp.o) (inverse)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(exp.o) (ldexp)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(modf.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(exp.o) (modf)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o (exit)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+                              ./adc.o (__do_copy_data)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+                              ../libmy_lcd.a(LCD3_3-InitProc.o) (__do_clear_bss)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                              ./adc.o (malloc)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(snprintf.o)
+                              ./adc.o (snprintf)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(snprintf.o) (vfprintf)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen_P)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (strnlen)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (fputc)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__ultoa_invert)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o) (__prologue_saves__)
+h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+                              h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(malloc.o) (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+__flp               0x2               h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+LOAD ./adc.o
+LOAD ../libmy_lcd.a
+LOAD h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a
+LOAD h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a
+LOAD h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a
+LOAD h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x19b6
+ *(.vectors)
+ .vectors       0x00000000       0x68 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000000                __vector_default
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_fplib
+                0x00000068       0x5a h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(log.o)
+ .progmem.gcc_fplib
+                0x000000c2       0x28 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(exp.o)
+ *(.progmem*)
+                0x000000ea                . = ALIGN (0x2)
+                0x000000ea                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000ea        0x0 linker stubs
+ *(.trampolines*)
+                0x000000ea                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000ea                __ctors_start = .
+ *(.ctors)
+                0x000000ea                __ctors_end = .
+                0x000000ea                __dtors_start = .
+ *(.dtors)
+                0x000000ea                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000ea        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+                0x000000ea                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000ea        0xc h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000f6       0x16 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+                0x000000f6                __do_copy_data
+ .init4         0x0000010c       0x10 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+                0x0000010c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000011c        0x8 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000124        0x4 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+                0x00000124                __vector_22
+                0x00000124                __vector_1
+                0x00000124                __vector_24
+                0x00000124                __vector_12
+                0x00000124                __bad_interrupt
+                0x00000124                __vector_6
+                0x00000124                __vector_3
+                0x00000124                __vector_23
+                0x00000124                __vector_25
+                0x00000124                __vector_11
+                0x00000124                __vector_13
+                0x00000124                __vector_17
+                0x00000124                __vector_19
+                0x00000124                __vector_7
+                0x00000124                __vector_5
+                0x00000124                __vector_4
+                0x00000124                __vector_9
+                0x00000124                __vector_2
+                0x00000124                __vector_21
+                0x00000124                __vector_15
+                0x00000124                __vector_8
+                0x00000124                __vector_14
+                0x00000124                __vector_10
+                0x00000124                __vector_16
+                0x00000124                __vector_18
+                0x00000124                __vector_20
+ .text          0x00000128        0x0 ./adc.o
+ .text          0x00000128        0x0 ../libmy_lcd.a(LCD3_3-InitProc.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(log.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(pow.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(exp.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(inverse.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(modf.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text          0x00000128        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+                0x00000128                . = ALIGN (0x2)
+ *(.text.*)
+ .text.adc_init
+                0x00000128       0x42 ./adc.o
+                0x00000128                adc_init
+ .text.adc_read
+                0x0000016a       0x46 ./adc.o
+                0x0000016a                adc_read
+ .text.adcToTempC
+                0x000001b0      0x13c ./adc.o
+                0x000001b0                adcToTempC
+ .text.floatTostring
+                0x000002ec      0x11c ./adc.o
+                0x000002ec                floatTostring
+ .text.LogVal   0x00000408       0x22 ./adc.o
+                0x00000408                LogVal
+ .text.startup.main
+                0x0000042a       0xcc ./adc.o
+                0x0000042a                main
+ .text.LCD_checkBusy
+                0x000004f6       0x2c ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x000004f6                LCD_checkBusy
+ .text.LCD_writeInstruction
+                0x00000522       0x84 ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x00000522                LCD_writeInstruction
+ .text.LCD_writeToDDRAM
+                0x000005a6       0x9a ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x000005a6                LCD_writeToDDRAM
+ .text.my_lcd_clear
+                0x00000640       0x72 ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x00000640                my_lcd_clear
+ .text.my_lcd_init
+                0x000006b2       0xe2 ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x000006b2                my_lcd_init
+ .text.GetWordFromString
+                0x00000794       0x98 ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x00000794                GetWordFromString
+ .text.NumberOfWords
+                0x0000082c       0x30 ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x0000082c                NumberOfWords
+ .text.GetWordLength
+                0x0000085c       0x6a ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x0000085c                GetWordLength
+ .text.my_lcd_display
+                0x000008c6       0xa4 ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x000008c6                my_lcd_display
+ .text.lcd_display_AutoWrap
+                0x0000096a      0x146 ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x0000096a                lcd_display_AutoWrap
+ .text.avr-libc.fplib
+                0x00000ab0        0xa h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x00000ab0                __subsf3
+                0x00000ab2                __addsf3
+ .text.avr-libc.fplib
+                0x00000aba       0xc0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x00000ad4                __addsf3x
+ .text.avr-libc.fplib
+                0x00000b7a        0x4 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00000b7a                __divsf3
+ .text.avr-libc.fplib
+                0x00000b7e       0xcc h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00000b94                __divsf3x
+                0x00000b98                __divsf3_pse
+ .text.avr-libc.fplib
+                0x00000c4a        0xa h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                0x00000c4a                __fixsfsi
+ .text.avr-libc.fplib
+                0x00000c54       0x58 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x00000c54                __fixunssfsi
+ .text.avr-libc.fplib
+                0x00000cac       0x7a h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x00000cac                __floatunsisf
+                0x00000cb0                __floatsisf
+ .text.avr-libc.fplib
+                0x00000d26        0xc h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x00000d26                __fp_inf
+ .text.avr-libc.fplib
+                0x00000d32        0x6 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00000d32                __fp_nan
+ .text.avr-libc.fplib
+                0x00000d38        0xe h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x00000d38                __fp_pscA
+ .text.avr-libc.fplib
+                0x00000d46        0xe h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x00000d46                __fp_pscB
+ .text.avr-libc.fplib
+                0x00000d54       0x22 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x00000d54                __fp_round
+ .text.avr-libc.fplib
+                0x00000d76       0x44 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x00000d76                __fp_split3
+                0x00000d86                __fp_splitA
+ .text.avr-libc.fplib
+                0x00000dba        0xe h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x00000dba                __fp_zero
+                0x00000dbc                __fp_szero
+ .text.avr-libc.fplib
+                0x00000dc8       0x8a h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(log.o)
+                0x00000dd2                log
+ .text.avr-libc.fplib
+                0x00000e52        0x4 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x00000e52                __mulsf3
+ .text.avr-libc.fplib
+                0x00000e56       0xc2 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00000e6a                __mulsf3x
+                0x00000e6e                __mulsf3_pse
+ .text.avr-libc.fplib
+                0x00000f18       0x98 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(pow.o)
+                0x00000f18                pow
+ .text.avr-libc.fplib
+                0x00000fb0       0x62 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(exp.o)
+                0x00000fba                exp
+ .text.avr-libc.fplib
+                0x00001012       0x1c h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+                0x00001012                __fp_mpack
+                0x00001016                __fp_mpack_finite
+ .text.avr-libc.fplib
+                0x0000102e       0x4a h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+                0x0000102e                __fp_powser
+ .text.avr-libc.fplib
+                0x00001078        0xe h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(inverse.o)
+                0x00001078                inverse
+ .text.avr-libc.fplib
+                0x00001086       0x6c h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
+                0x0000108a                ldexp
+ .text.avr-libc.fplib
+                0x000010f2       0x66 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(modf.o)
+                0x000010f2                modf
+                0x000010f2                modff
+ .text.libgcc.mul
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00001158        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00001158      0x270 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00001158                malloc
+                0x0000128e                free
+ .text.avr-libc
+                0x000013c8       0x7a h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(snprintf.o)
+                0x000013c8                snprintf
+ .text.avr-libc
+                0x00001442      0x3ae h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x00001442                vfprintf
+ .text.avr-libc
+                0x000017f0       0x16 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x000017f0                strnlen_P
+ .text.avr-libc
+                0x00001806       0x16 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x00001806                strnlen
+ .text.avr-libc
+                0x0000181c       0x6c h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x0000181c                fputc
+ .text.avr-libc
+                0x00001888       0xbc h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x00001888                __ultoa_invert
+ .text.libgcc.mul
+                0x00001944        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00001944        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00001944        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.prologue
+                0x00001944       0x38 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+                0x00001944                __prologue_saves__
+ .text.libgcc.builtins
+                0x0000197c        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x0000197c        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x0000197c        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x0000197c        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x0000197c        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.prologue
+                0x0000197c       0x36 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+                0x0000197c                __epilogue_restores__
+ .text.libgcc.builtins
+                0x000019b2        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x000019b2        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+                0x000019b2                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000019b2        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+                0x000019b2                _exit
+                0x000019b2                exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000019b2        0x4 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000019b6                _etext = .
+
+.data           0x00800100       0x24 load address 0x000019b6
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+ .data          0x00800100        0x0 ./adc.o
+ .data          0x00800100        0x0 ../libmy_lcd.a(LCD3_3-InitProc.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(log.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(pow.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(exp.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(inverse.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(modf.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800100        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800100        0x6 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800100                __malloc_heap_end
+                0x00800102                __malloc_heap_start
+                0x00800104                __malloc_margin
+ .data          0x00800106        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .data          0x00800106        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .data          0x00800106        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .data          0x00800106        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .data          0x00800106        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .data          0x00800106        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .data          0x00800106        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .data          0x00800106        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ .rodata.str1.1
+                0x00800106       0x1e ./adc.o
+ *(.gnu.linkonce.d*)
+                0x00800124                . = ALIGN (0x2)
+                0x00800124                _edata = .
+                0x00800124                PROVIDE (__data_end, .)
+
+.bss            0x00800124        0x6
+                0x00800124                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x00800124        0x0 ./adc.o
+ .bss           0x00800124        0x0 ../libmy_lcd.a(LCD3_3-InitProc.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_round.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(log.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(pow.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(exp.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_mpack.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(fp_powser.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(inverse.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(ldexp.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libm.a(modf.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_exit.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_prologue.o)
+ .bss           0x00800124        0x0 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/avr5\libgcc.a(_epilogue.o)
+ *(.bss*)
+ .bss.bitmode   0x00800124        0x2 ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x00800124                bitmode
+ *(COMMON)
+ COMMON         0x00800126        0x4 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+                0x00800126                __brkval
+                0x00800128                __flp
+                0x0080012a                PROVIDE (__bss_end, .)
+                0x000019b6                __data_load_start = LOADADDR (.data)
+                0x000019da                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080012a        0x0
+                0x0080012a                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080012a                PROVIDE (__noinit_end, .)
+                0x0080012a                _end = .
+                0x0080012a                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 ./adc.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000000       0x12 ../libmy_lcd.a(LCD3_3-InitProc.o)
+ .comment       0x00000000       0x12 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(malloc.o)
+ .comment       0x00000000       0x12 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .comment       0x00000000       0x12 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .comment       0x00000000       0x12 h:/enel317-16b/eclipse/mhv avr tools/bin/../lib/gcc/avr/4.7.1/../../../../avr/lib/avr5\libc.a(fputc.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(adc_thermistorC.elf elf32-avr)
+LOAD linker stubs
