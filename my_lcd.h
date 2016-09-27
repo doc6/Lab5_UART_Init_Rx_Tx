@@ -62,9 +62,12 @@
  */
 
 /*
- * 	Initialise the LCD for Control on portC and Data on portD for 8 bit and 4 bit mode depending on the argument (8 or 4).
+ * 	Initialise the LCD for Control on portC or portB and Data on portD for 8 bit and 4 bit mode depending on the argument (8 or 4).
+ *
+ * 	Set argument  bit to 8-bit mode or 4 for 4-bit mode.
+ * 	Set argument ctrl_port_mode_b to 0 for control lines on port c, or >= 1 for port b.
  */
-extern void my_lcd_init(int bit);
+extern void my_lcd_init(unsigned char bit, unsigned char ctrl_port_mode_b);
 
 /*
  * 	Clears the LCD.
@@ -79,6 +82,8 @@ extern void my_lcd_display(char string[]);
 /*
  * 	Displays a string of words on the LCD without
  * 	splitting words between a line on the display.
+ * 	Arguments are the length of the string array
+ * 	and the string array, use: sizeof(string).
  */
 extern void my_lcd_display_AutoWrap(int stringSize, char string[]);
 
@@ -87,6 +92,5 @@ extern void my_lcd_display_AutoWrap(int stringSize, char string[]);
  * 	true then the default control port is set to port C, with pins
  *	3, 4, and 5 as EN, RW, and RS respectively.
  */
-extern unsigned char ctrl_port_b;
 
 #endif

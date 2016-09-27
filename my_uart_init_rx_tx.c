@@ -72,7 +72,7 @@ int main()
 	char con[33];
 	unsigned int position_lcd = 0;			// Stores the LCD cursor position from 0 to 31
 
-	my_lcd_init(4);						// Initalise LCD in 4 bit mode.
+	my_lcd_init(4, 0);						// Initalise LCD in 4 bit mode with control on port c.
 	my_uart0_init(96, 16);				// Initalise the serial communication at a board rate of 9600 Hz
 
 
