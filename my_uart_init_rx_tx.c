@@ -76,6 +76,7 @@ int main()
 	my_lcd_init(4, 0);						// Initalise LCD in 4 bit mode with control on port c.
 	my_uart0_init(96, 16);				// Initalise the serial communication at a board rate of 9600 Hz
 
+	memset( str_display, 0, sizeof(str_display) );	// Clear the position_lcd array.
 
 	while(1)
 	{
