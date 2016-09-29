@@ -7,7 +7,8 @@
  *	Initalises the serial port and also
  *	receives serial data from PC, displays
  *	it on an LCD, and retransmits it back
- *	to the PC.
+ *	to the PC. And continually displays to
+ *	an LCD.
  */
 
 #include <stdio.h>
