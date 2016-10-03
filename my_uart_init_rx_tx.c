@@ -62,6 +62,134 @@ void my_uart0_tx_byte(unsigned char byte)
 	UDR0 = byte;		// Put the data byte into the buffer to send the byte.
 }
 
+/*
+ * 	Input format: ####X####
+ *
+ * 	Returns error message or result of operation in the given argument string.
+ */
+void parse_string_to_operation(char *str, int strLength)
+{
+	int num1 = 0;
+	int num2 = 0;
+	int strIndx = 0;
+	int result;
+
+	/* 0=no operation, error,
+	 * 1=division,
+	 * 2=multiplication,
+	 * 3=subtraction,
+	 * 4=addition.*/
+	int operation = 0;
+
+	/*
+	 * 0=no error,
+	 * 1=error 1: invalid input string format
+	 * 2=error 2: invalid operator.
+	 */
+	int error_code = 0;
+
+	int errorCode;
+
+	/* Look for first number in operation: */
+	while( str && str[strIndx] != '/' && str[strIndx] != '*' && str[strIndx] != '-' && str[strIndx] != '+' )
+	{
+			/* If the current character is a number
+			 * Then convert it to an integer*/
+			if( (str[strIndx] >= 48 && str[strIndx] <= 57) )
+			{
+				num1 += str[strIndx] - 48;		// Convert the number character to an int.
+			}
+			else
+			{
+				error_code = 1;					// error 1: invalid input string format.
+			}
+
+		strIndx++;
+	}
+
+	/* Determine the operator: */
+	switch(str[strIndx])
+	{
+	case '/':
+		operation = 1;
+		break;
+	case '*':
+		operation = 21;
+		break;
+	case '-':
+		operation = 3;
+		break;
+	case '+':
+		operation = 4;
+		break;
+    default :	// error 2: invalid operator.
+    	operation = 0;
+	}
+
+	// error 2: invalid operator.
+	if(operation == 0)
+	{
+		error_code = 2;
+	}
+
+	/* Look for second number in operation: */
+	while( str )
+	{
+			/* If the current character is a number
+			 * Then convert it to an integer*/
+			if( (str[strIndx] >= 48 && str[strIndx] <= 57) )
+			{
+				num2 += str[strIndx] - 48;		// Convert the number character to an int.
+			}
+			else
+			{
+				operation = 1;					// error 1: invalid input string format.
+			}
+
+		strIndx++;
+	}
+
+	/* check errors */
+	if( error_code )
+	{
+		/* Do errors */
+		switch(error_code)
+		{
+		case 1:		// error 1: invalid input string format.
+			snprintf(str, strLength, "%s", "error 1: invalid input string format.");
+			break;
+		case 2:		// error 2: invalid operator.
+			snprintf(str, strLength, "%s", "error 2: invalid operator.");
+			break;
+		default :	// Default error: Unknown error.
+			snprintf(str, strLength, "%s", "Default error: Unknown error.");
+		}
+	}
+	else
+	{
+		/* Do operation:*/
+		switch(operation)
+		{
+		case 1:		// (/)
+			snprintf(str, strLength, "%s = %i", str, num1/num2);
+			break;
+		case 2:		// (*)
+			snprintf(str, strLength, "%s = %i", str, num1*num2);
+			break;
+		case 3:		// (-)
+			snprintf(str, strLength, "%s = %i", str, num1-num2);
+			break;
+		case 4:		// (+)
+			snprintf(str, strLength, "%s = %i", str, num1+num2);
+			break;
+		case 5:		// error 5: invalid input string format.
+			snprintf(str, strLength, "%s", "error 5: invalid input string format.");
+			break;
+		}
+	}
+
+
+}
 
 
 int main()
