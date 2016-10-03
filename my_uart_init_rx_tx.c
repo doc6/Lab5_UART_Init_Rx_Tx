@@ -12,9 +12,9 @@
 
 #include <stdio.h>
 #include <avr/io.h>
-//#include "libser.h"
 #include <util/delay.h>
 #include "my_lcd.h"
+#include <string.h>
 
 /* Initalise the serial port for the given board rate/100 and MC clock speed in MHz*/
 void my_uart0_init(unsigned int BaudRate, unsigned int ClockSpeed)
@@ -73,7 +73,6 @@ void parse_string_to_operation(char *str, int strLength)
 	int num1 = 0;
 	int num2 = 0;
 	int strIndx = 0;
-	int result;
 
 	/* 0=no operation, error,
 	 * 1=division,
@@ -88,8 +87,6 @@ void parse_string_to_operation(char *str, int strLength)
 	 * 2=error 2: invalid operator.
 	 */
 	int error_code = 0;
-
-	int errorCode;
 
 	/* Look for first number in operation: */
 	while( str && str[strIndx] != '/' && str[strIndx] != '*' && str[strIndx] != '-' && str[strIndx] != '+' )
@@ -190,27 +187,42 @@ void parse_string_to_operation(char *str, int strLength)
 	}
 }
 
+void tx_string(char *str)
+{
+		unsigned int str_indx = 0;
+		while( str )
+		{
+			my_uart0_tx_byte(str[str_indx]);		// Transmit the each character in the string to the PC.
+			str_indx++;
+		}
+}
 
 int main()
 {
 	char RxByte;
-	char con[32];
+	char str_display[33];
 
-	my_lcd_init(4);						// Initalise LCD in 4 bit mode.
-	my_uart0_init(96, 16);				// Initalise the serial communication at a board rate of 9600 Hz
+	my_lcd_init(4, 0);								// Initalise LCD in 4 bit mode with control on port c.
+	my_uart0_init(96, 16);							// Initalise the serial communication at a board rate of 9600 Hz
 
-	ctrl_port_b = 1;					// Set LCD control lines to port B.
+	memset( str_display, 0, sizeof(str_display) );	// Clear the position_lcd array.
 
+	snprintf(str_display, 33, "%s", "1+1");
 	while(1)
 	{
 		RxByte = my_uart0_rx_byte();	// Wait until received message from PC.
 
-		my_uart0_tx_byte(RxByte);		// Transmit the received message back to the PC.
-
-		/* Display received message on LCD */
-		snprintf(con, 32, "%s%c", "Received: ", RxByte);
-		my_lcd_display(con);
-		parse_string_to_operation
+		/* if return key pressed*/
+		if (RxByte == 13)
+		{
+			parse_string_to_operation(str_display, sizeof(str_display));
+			tx_string(str_display);
+		}
+		else
+		{
+			/*echo*/
+			my_uart0_tx_byte(RxByte);		// Transmit the received message back to the PC.
+		}
 	}
 	return 0;
 }

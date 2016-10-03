@@ -1,7 +1,6 @@
 Archive member included because of file (symbol)
 
-../libmy_lcd.a(LCD3_3-InitProc.o)
-                              ./my_uart_init_rx_tx.o (my_lcd_init)
+../libmy_lcd.a(my_lcd.o)      ./my_uart_init_rx_tx.o (my_lcd_init)
 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
                               ./my_uart_init_rx_tx.o (__umulhisi3)
 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
@@ -15,11 +14,13 @@ d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exi
 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
                               ./my_uart_init_rx_tx.o (__do_copy_data)
 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
-                              ../libmy_lcd.a(LCD3_3-InitProc.o) (__do_clear_bss)
+                              ../libmy_lcd.a(my_lcd.o) (__do_clear_bss)
 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
                               d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o) (__udivmodhi4)
 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
                               d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                              ./my_uart_init_rx_tx.o (strcpy)
 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(snprintf.o)
                               ./my_uart_init_rx_tx.o (snprintf)
 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
@@ -36,11 +37,6 @@ d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_pro
                               d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(snprintf.o) (__prologue_saves__)
 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
                               d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(snprintf.o) (__epilogue_restores__)
-
-Allocating common symbols
-Common symbol       size              file
-
-ctrl_port_b         0x1               ../libmy_lcd.a(LCD3_3-InitProc.o)
 
 Memory Configuration
 
@@ -156,7 +152,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000      0xf80
+.text           0x00000000      0xfc8
  *(.vectors)
  .vectors       0x00000000       0x68 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5/crtm328p.o
                 0x00000000                __vector_default
@@ -240,7 +236,7 @@ END GROUP
                 0x000000a2                __vector_18
                 0x000000a2                __vector_20
  .text          0x000000a6        0x0 ./my_uart_init_rx_tx.o
- .text          0x000000a6        0x0 ../libmy_lcd.a(LCD3_3-InitProc.o)
+ .text          0x000000a6        0x0 ../libmy_lcd.a(my_lcd.o)
  .text          0x000000a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
  .text          0x000000a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
  .text          0x000000a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
@@ -250,6 +246,7 @@ END GROUP
  .text          0x000000a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
  .text          0x000000a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
  .text          0x000000a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x000000a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strcpy.o)
  .text          0x000000a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(snprintf.o)
  .text          0x000000a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
  .text          0x000000a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
@@ -272,198 +269,213 @@ END GROUP
  .text.parse_string_to_operation
                 0x000000fc      0x222 ./my_uart_init_rx_tx.o
                 0x000000fc                parse_string_to_operation
+ .text.tx_string
+                0x0000031e       0x18 ./my_uart_init_rx_tx.o
+                0x0000031e                tx_string
  .text.startup.main
-                0x0000031e       0x7c ./my_uart_init_rx_tx.o
-                0x0000031e                main
+                0x00000336       0x62 ./my_uart_init_rx_tx.o
+                0x00000336                main
+ .text.ctrl_set
+                0x00000398       0x18 ../libmy_lcd.a(my_lcd.o)
+ .text.ctrl_clear
+                0x000003b0       0x1a ../libmy_lcd.a(my_lcd.o)
+ .text.pulse_EN
+                0x000003ca       0x28 ../libmy_lcd.a(my_lcd.o)
  .text.LCD_writeInstruction
-                0x0000039a       0x74 ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x000003f2       0x72 ../libmy_lcd.a(my_lcd.o)
+ .text.my_lcd_process_delayTime
+                0x00000464       0x12 ../libmy_lcd.a(my_lcd.o)
+                0x00000464                my_lcd_process_delayTime
  .text.my_lcd_clear
-                0x0000040e       0x62 ../libmy_lcd.a(LCD3_3-InitProc.o)
-                0x0000040e                my_lcd_clear
+                0x00000476       0x5c ../libmy_lcd.a(my_lcd.o)
+                0x00000476                my_lcd_clear
  .text.my_lcd_init
-                0x00000470       0xe8 ../libmy_lcd.a(LCD3_3-InitProc.o)
-                0x00000470                my_lcd_init
+                0x000004d2       0xd6 ../libmy_lcd.a(my_lcd.o)
+                0x000004d2                my_lcd_init
  .text.my_lcd_display
-                0x00000558      0x128 ../libmy_lcd.a(LCD3_3-InitProc.o)
-                0x00000558                my_lcd_display
+                0x000005a8      0x112 ../libmy_lcd.a(my_lcd.o)
+                0x000005a8                my_lcd_display
  .text.my_lcd_display_AutoWrap
-                0x00000680      0x24e ../libmy_lcd.a(LCD3_3-InitProc.o)
-                0x00000680                my_lcd_display_AutoWrap
+                0x000006ba      0x24e ../libmy_lcd.a(my_lcd.o)
+                0x000006ba                my_lcd_display_AutoWrap
  .text.libgcc.mul
-                0x000008ce       0x1e d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
-                0x000008ce                __umulhisi3
+                0x00000908       0x1e d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
+                0x00000908                __umulhisi3
  .text.libgcc.div
-                0x000008ec        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
- .text.libgcc   0x000008ec        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
+                0x00000926        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
+ .text.libgcc   0x00000926        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.prologue
-                0x000008ec        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
+                0x00000926        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.builtins
-                0x000008ec        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
+                0x00000926        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.fmul
-                0x000008ec        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
+                0x00000926        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.fixed
-                0x000008ec        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
+                0x00000926        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
  .text.libgcc.mul
-                0x000008ec        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
+                0x00000926        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
  .text.libgcc.div
-                0x000008ec       0x28 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
-                0x000008ec                _div
-                0x000008ec                __divmodhi4
- .text.libgcc   0x00000914        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
+                0x00000926       0x28 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
+                0x00000926                _div
+                0x00000926                __divmodhi4
+ .text.libgcc   0x0000094e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
  .text.libgcc.prologue
-                0x00000914        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
+                0x0000094e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
  .text.libgcc.builtins
-                0x00000914        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
+                0x0000094e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
  .text.libgcc.fmul
-                0x00000914        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
+                0x0000094e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
  .text.libgcc.fixed
-                0x00000914        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
+                0x0000094e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
  .text.libgcc.mul
-                0x00000914        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
+                0x0000094e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.div
-                0x00000914       0x2e d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
-                0x00000914                __divmodsi4
- .text.libgcc   0x00000942        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
+                0x0000094e       0x2e d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
+                0x0000094e                __divmodsi4
+ .text.libgcc   0x0000097c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.prologue
-                0x00000942        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
+                0x0000097c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.builtins
-                0x00000942        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
+                0x0000097c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.fmul
-                0x00000942        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
+                0x0000097c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.fixed
-                0x00000942        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
+                0x0000097c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
  .text.libgcc.mul
-                0x00000942        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
+                0x0000097c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.div
-                0x00000942       0x10 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
-                0x00000942                __negsi2
- .text.libgcc   0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
+                0x0000097c       0x10 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
+                0x0000097c                __negsi2
+ .text.libgcc   0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.prologue
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.builtins
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.fmul
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.fixed
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
  .text.libgcc.mul
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
  .text.libgcc.div
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
- .text.libgcc   0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.div
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
- .text.libgcc   0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.prologue
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.builtins
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fmul
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.fixed
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
  .text.libgcc.mul
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.div
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
- .text.libgcc   0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.prologue
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.builtins
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fmul
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
  .text.libgcc.mul
-                0x00000952        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x0000098c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
  .text.libgcc.div
-                0x00000952       0x28 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
-                0x00000952                __udivmodhi4
- .text.libgcc   0x0000097a        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x0000098c       0x28 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x0000098c                __udivmodhi4
+ .text.libgcc   0x000009b4        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
  .text.libgcc.prologue
-                0x0000097a        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x000009b4        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
  .text.libgcc.builtins
-                0x0000097a        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x000009b4        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
  .text.libgcc.fmul
-                0x0000097a        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x000009b4        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
  .text.libgcc.fixed
-                0x0000097a        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x000009b4        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
  .text.libgcc.mul
-                0x0000097a        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000009b4        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.div
-                0x0000097a       0x44 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
-                0x0000097a                __udivmodsi4
- .text.libgcc   0x000009be        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000009b4       0x44 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000009b4                __udivmodsi4
+ .text.libgcc   0x000009f8        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.prologue
-                0x000009be        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000009f8        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.builtins
-                0x000009be        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000009f8        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fmul
-                0x000009be        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000009f8        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
  .text.libgcc.fixed
-                0x000009be        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x000009f8        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
  .text.avr-libc
-                0x000009be       0x60 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(snprintf.o)
-                0x000009be                snprintf
+                0x000009f8        0xe d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strcpy.o)
+                0x000009f8                strcpy
  .text.avr-libc
-                0x00000a1e      0x3a4 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
-                0x00000a1e                vfprintf
+                0x00000a06       0x60 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(snprintf.o)
+                0x00000a06                snprintf
  .text.avr-libc
-                0x00000dc2       0x16 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
-                0x00000dc2                strnlen_P
+                0x00000a66      0x3a4 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+                0x00000a66                vfprintf
  .text.avr-libc
-                0x00000dd8       0x16 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strnlen.o)
-                0x00000dd8                strnlen
+                0x00000e0a       0x16 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+                0x00000e0a                strnlen_P
  .text.avr-libc
-                0x00000dee       0x64 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(fputc.o)
-                0x00000dee                fputc
+                0x00000e20       0x16 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strnlen.o)
+                0x00000e20                strnlen
  .text.avr-libc
-                0x00000e52       0xbc d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
-                0x00000e52                __ultoa_invert
+                0x00000e36       0x64 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(fputc.o)
+                0x00000e36                fputc
+ .text.avr-libc
+                0x00000e9a       0xbc d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+                0x00000e9a                __ultoa_invert
  .text.libgcc.mul
-                0x00000f0e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
+                0x00000f56        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
  .text.libgcc.div
-                0x00000f0e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
- .text.libgcc   0x00000f0e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
+                0x00000f56        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
+ .text.libgcc   0x00000f56        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
  .text.libgcc.prologue
-                0x00000f0e       0x38 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
-                0x00000f0e                __prologue_saves__
+                0x00000f56       0x38 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
+                0x00000f56                __prologue_saves__
  .text.libgcc.builtins
-                0x00000f46        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
+                0x00000f8e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
  .text.libgcc.fmul
-                0x00000f46        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
+                0x00000f8e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
  .text.libgcc.fixed
-                0x00000f46        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
+                0x00000f8e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
  .text.libgcc.mul
-                0x00000f46        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
+                0x00000f8e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.div
-                0x00000f46        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
- .text.libgcc   0x00000f46        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
+                0x00000f8e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000f8e        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.prologue
-                0x00000f46       0x36 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
-                0x00000f46                __epilogue_restores__
+                0x00000f8e       0x36 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
+                0x00000f8e                __epilogue_restores__
  .text.libgcc.builtins
-                0x00000f7c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
+                0x00000fc4        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.fmul
-                0x00000f7c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
+                0x00000fc4        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
  .text.libgcc.fixed
-                0x00000f7c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
-                0x00000f7c                . = ALIGN (0x2)
+                0x00000fc4        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
+                0x00000fc4                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00000f7c        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
-                0x00000f7c                _exit
-                0x00000f7c                exit
+ .fini9         0x00000fc4        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
+                0x00000fc4                _exit
+                0x00000fc4                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -482,16 +494,16 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00000f7c        0x4 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
+ .fini0         0x00000fc4        0x4 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00000f80                _etext = .
+                0x00000fc8                _etext = .
 
-.data           0x00800100       0xa6 load address 0x00000f80
+.data           0x00800100       0xa0 load address 0x00000fc8
                 0x00800100                PROVIDE (__data_start, .)
  *(.data)
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5/crtm328p.o
  .data          0x00800100        0x0 ./my_uart_init_rx_tx.o
- .data          0x00800100        0x0 ../libmy_lcd.a(LCD3_3-InitProc.o)
+ .data          0x00800100        0x0 ../libmy_lcd.a(my_lcd.o)
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
@@ -501,6 +513,7 @@ END GROUP
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strcpy.o)
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(snprintf.o)
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
@@ -510,57 +523,61 @@ END GROUP
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
  .data          0x00800100        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
  *(.data*)
+ .data.g_delay  0x00800100        0x2 ../libmy_lcd.a(my_lcd.o)
+ .data.c_delay  0x00800102        0x2 ../libmy_lcd.a(my_lcd.o)
+ .data.bitmode  0x00800104        0x1 ../libmy_lcd.a(my_lcd.o)
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x00800100       0xa0 ./my_uart_init_rx_tx.o
+                0x00800105       0x94 ./my_uart_init_rx_tx.o
  .rodata.CSWTCH.6
-                0x008001a0        0x6 ./my_uart_init_rx_tx.o
+                0x00800199        0x6 ./my_uart_init_rx_tx.o
  .rodata.str1.1
-                0x00000000        0x3 ../libmy_lcd.a(LCD3_3-InitProc.o)
+                0x00000000        0x3 ../libmy_lcd.a(my_lcd.o)
  *(.gnu.linkonce.d*)
-                0x008001a6                . = ALIGN (0x2)
-                0x008001a6                _edata = .
-                0x008001a6                PROVIDE (__data_end, .)
+                0x008001a0                . = ALIGN (0x2)
+ *fill*         0x0080019f        0x1 
+                0x008001a0                _edata = .
+                0x008001a0                PROVIDE (__data_end, .)
 
-.bss            0x008001a6        0x3
-                0x008001a6                PROVIDE (__bss_start, .)
+.bss            0x008001a0        0x1
+                0x008001a0                PROVIDE (__bss_start, .)
  *(.bss)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5/crtm328p.o
- .bss           0x008001a6        0x0 ./my_uart_init_rx_tx.o
- .bss           0x008001a6        0x0 ../libmy_lcd.a(LCD3_3-InitProc.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(snprintf.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strnlen.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(fputc.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
- .bss           0x008001a6        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5/crtm328p.o
+ .bss           0x008001a0        0x0 ./my_uart_init_rx_tx.o
+ .bss           0x008001a0        0x0 ../libmy_lcd.a(my_lcd.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_umulhisi3.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_negsi2.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_exit.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strcpy.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(snprintf.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strnlen_P.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(strnlen.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(fputc.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(ultoa_invert.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_prologue.o)
+ .bss           0x008001a0        0x0 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/avr5\libgcc.a(_epilogue.o)
  *(.bss*)
- .bss.bitmode   0x008001a6        0x2 ../libmy_lcd.a(LCD3_3-InitProc.o)
+ .bss.ctrl_port_mode_b
+                0x008001a0        0x1 ../libmy_lcd.a(my_lcd.o)
  *(COMMON)
- COMMON         0x008001a8        0x1 ../libmy_lcd.a(LCD3_3-InitProc.o)
-                0x008001a8                ctrl_port_b
-                0x008001a9                PROVIDE (__bss_end, .)
-                0x00000f80                __data_load_start = LOADADDR (.data)
-                0x00001026                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x008001a1                PROVIDE (__bss_end, .)
+                0x00000fc8                __data_load_start = LOADADDR (.data)
+                0x00001068                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008001a9        0x0
-                0x008001a9                PROVIDE (__noinit_start, .)
+.noinit         0x008001a1        0x0
+                0x008001a1                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x008001a9                PROVIDE (__noinit_end, .)
-                0x008001a9                _end = .
-                0x008001a9                PROVIDE (__heap_start, .)
+                0x008001a1                PROVIDE (__noinit_end, .)
+                0x008001a1                _end = .
+                0x008001a1                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -600,7 +617,7 @@ END GROUP
  *(.comment)
  .comment       0x00000000       0x27 ./my_uart_init_rx_tx.o
                                  0x28 (size before relaxing)
- .comment       0x00000027       0x11 ../libmy_lcd.a(LCD3_3-InitProc.o)
+ .comment       0x00000027       0x11 ../libmy_lcd.a(my_lcd.o)
                                  0x12 (size before relaxing)
  .comment       0x00000000       0x28 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(snprintf.o)
  .comment       0x00000000       0x28 d:/program files (x86)/mhv avr tools/bin/../lib/gcc/avr/4.8.2/../../../../avr/lib/avr5\libc.a(vfprintf_std.o)

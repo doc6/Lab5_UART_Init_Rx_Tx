@@ -1,16 +1,12 @@
 /*
  *  Module: my_lcd
- *  Author: M. J. Cree,
- *  Modified by D. O. Corlett,
+ *  Author: D. O. Corlett
  *
- *  (C) 2009-2014 The University of Waikato
+ *	Functions for interfacing and displaying text to 16x2 LCD display.
  *
- *  Routines to interface to the 16x2 text LCD display.
- *  Modified to use D. O. Corlett's functions for
- *  displaying text to 16x2 LCD display
  */
 
-#ifndef _LIBRARY_LCD_H_
+#ifndef _LIBRARY_LCD_H_			// Checks if this library has already been included.
 #define _LIBRARY_LCD_H_
 
 
@@ -44,9 +40,10 @@
  *
  * 	The LCD uses three control lines, EN, RW, and RS.
  * 	These control lines can be configured on port B or port C.
- * 	To set control line to Port B set the global variable: ctrl_port_b
- * 	to true(1), to set control line to port C set ctrl_port_b to false(0).
- * 	The control lines are set to port C by default.
+ * 	To set control line to Port B set the ctrl_port_mode_b
+ * 	argument in the my_lcd_init() function to true(1), to set
+ * 	control line to port C set ctrl_port_b to false(0). The
+ * 	control lines are set to port C by default.
  *
  * 	Control lines:
  * 	Port B:
@@ -61,10 +58,29 @@
  *
  */
 
+
 /*
- * 	Initialise the LCD for Control on portC and Data on portD for 8 bit and 4 bit mode depending on the argument (8 or 4).
+ * 	Initialise the LCD for Control on portC or portB and Data on portD for 8 bit and 4 bit mode depending on the argument (8 or 4).
+ *
+ * 	Set argument  bit to 8-bit mode or 4 for 4-bit mode.
+ *
+ * 	Set argument ctrl_port_b to > 0 (true) if using pins 11, 12, and 13 for the LCD
+ * 	control pins: EN, RW, and RS respectively.
+ * 	Set argument ctrl_port_b to 0 (false) to set control lines to port C, with pins
+ *	3, 4, and 5 as EN, RW, and RS respectively.
  */
-extern void my_lcd_init(int bit);
+extern void my_lcd_init(unsigned char bit, unsigned char ctrl_port_mode_b);
+
+/*
+ *	Sets the delay time for the LCD to process instructions to enable comparability between various LCD modules.
+ *		general_delay sets the delay time for processing general instructions in us.
+ *		clear_delay delay time for processing the clear instruction in us.
+ *
+ *		As per the dot matrix LCD data sheet supplied in ENEL317-16B lab manual:
+ *		Default delay for general instuction is 50 us.
+ *		Default delay for clear instruction is 2000 us.
+ */
+extern void my_lcd_process_delayTime(unsigned int general_delay, unsigned int clear_delay);
 
 /*
  * 	Clears the LCD.
@@ -79,14 +95,9 @@ extern void my_lcd_display(char string[]);
 /*
  * 	Displays a string of words on the LCD without
  * 	splitting words between a line on the display.
+ * 	Arguments are the length of the string array
+ * 	and the string array, use: sizeof(string).
  */
 extern void my_lcd_display_AutoWrap(int stringSize, char string[]);
-
-/* 	Set ctrl_port_b to true(1) if using pins 11, 12, and 13 for the LCD
- * 	control pins: EN, RW, and RS respectively. If ctrl_port_b is not
- * 	true then the default control port is set to port C, with pins
- *	3, 4, and 5 as EN, RW, and RS respectively.
- */
-extern unsigned char ctrl_port_b;
 
 #endif
