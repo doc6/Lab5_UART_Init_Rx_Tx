@@ -10,6 +10,7 @@
  *	to the PC.
  */
 
+#include <stdio.h>
 #include <avr/io.h>
 //#include "libser.h"
 #include <util/delay.h>
@@ -187,8 +188,6 @@ void parse_string_to_operation(char *str, int strLength)
 			break;
 		}
 	}
-
-
 }
 
 
@@ -211,7 +210,7 @@ int main()
 		/* Display received message on LCD */
 		snprintf(con, 32, "%s%c", "Received: ", RxByte);
 		my_lcd_display(con);
-
+		parse_string_to_operation
 	}
 	return 0;
 }
